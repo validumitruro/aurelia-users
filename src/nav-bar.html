@@ -1,0 +1,20 @@
+<template bindable="router">
+	<div class="top-bar">
+		<div class="top-bar-left">
+			<ul class="dropdown menu" data-dropdown-menu>
+	    		<li class="menu-text" role="menuitem">${router.title}</li>
+				<li repeat.for="row of router.navigation" class="${row.isActive ? 'active' : ''}">
+					<a href.bind="row.href">
+						<i if.bind="row.settings.icon" class="fa fa-${row.settings.icon}"></i>
+						${row.title}
+					</a>
+				</li>
+	    	</ul>
+		</div>
+
+		<div class="top-bar-right text-right" if.bind="router.isNavigating">
+			<i class="fa fa-spinner fa-spin fa-2x fa-fw"></i>
+			<span class="sr-only">Loading...</span>
+		</div>
+	</div>
+</template>

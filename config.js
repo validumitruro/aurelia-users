@@ -20,6 +20,7 @@ System.config({
     "aurelia-bootstrapper": "npm:aurelia-bootstrapper@1.0.0-beta.1.2.0",
     "aurelia-fetch-client": "npm:aurelia-fetch-client@1.0.0-beta.1.2.5",
     "aurelia-framework": "npm:aurelia-framework@1.0.0-beta.1.2.3",
+    "aurelia-router": "npm:aurelia-router@1.0.0-beta.1.2.2",
     "aurelia-validatejs": "npm:aurelia-validatejs@0.2.1",
     "babel": "npm:babel-core@5.8.38",
     "babel-runtime": "npm:babel-runtime@5.8.38",
