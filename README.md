@@ -20,8 +20,8 @@ npm install -g gulp jspm json-server
 .then().run():
 
 ```
-npm install
 jspm install
+npm install
 ```
 
 And to power everything up:

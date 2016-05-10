@@ -2,6 +2,7 @@
   "jspm": {
     "dependencies": {
       "aurelia-bootstrapper": "npm:aurelia-bootstrapper@^1.0.0-beta.1.2.0",
+      "aurelia-fetch-client": "npm:aurelia-fetch-client@^1.0.0-beta.1.2.5",
       "aurelia-framework": "npm:aurelia-framework@^1.0.0-beta.1.2.3",
       "aurelia-validatejs": "npm:aurelia-validatejs@^0.2.1",
       "font-awesome": "npm:font-awesome@^4.6.1",
@@ -12,5 +13,10 @@
       "babel-runtime": "npm:babel-runtime@^5.8.24",
       "core-js": "npm:core-js@^1.1.4"
     }
+  },
+  "devDependencies": {
+    "browser-sync": "^2.12.7",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.1"
   }
 }
