@@ -1,5 +1,5 @@
 # aurelia-comments
-A simple Aurelia demonstration of how to create a custom user signup/login process. The user accounts are stored (using the infamous [json-server package]: https://github.com/typicode/json-server, which is awesome btw) using a simple JSON structure inside the db.json file, found in the project root folder.
+A simple Aurelia demonstration of how to create a custom user signup/login process. The user accounts are stored (using the infamous [json-server package](https://github.com/typicode/json-server), which is awesome btw) using a simple JSON structure inside the db.json file, found in the project root folder.
 
 The SCSS file(s) are built into regular CSS files by gulp (styles/*.scss).
 
